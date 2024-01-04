@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 from evodiff.pretrained import OA_DM_38M
-from evodiff.conditional_generation import inpaint_simple, generate_binder
+from evodiff.conditional_generation_seq import inpaint_simple, generate_binder
 from evodiff.utils import Tokenizer
 
 def main(protein_1, protein_2):
